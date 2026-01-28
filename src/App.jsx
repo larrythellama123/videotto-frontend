@@ -2,7 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API_URL = 'http://16.171.60.162'  
+const API_URL = 'https://16.171.60.162'  
 
 function App() {
   const [videoUrl, setVideoUrl] = useState('')
