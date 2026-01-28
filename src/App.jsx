@@ -37,7 +37,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API_URL = 'http://16.171.60.123:8000'  // Your EC2 IP
+const API_URL = 'http://16.171.60.162:8000'  
 
 function App() {
   const [videoUrl, setVideoUrl] = useState('')
