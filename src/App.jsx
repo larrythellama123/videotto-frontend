@@ -64,7 +64,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Enter Dropbox video URL"
+            placeholder="Enter Dropbox video or Youtube URL"
             value={videoUrl}
             onChange={(e) => setVideoUrl(e.target.value)}
             required
