@@ -2,7 +2,7 @@ import { useState } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const API_URL = 'https://videotto-frontend.xyz/process'  
+const API_URL = 'https://videotto-frontend.xyz'  
 
 
 function App() {
